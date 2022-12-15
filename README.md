@@ -67,6 +67,8 @@ It is a three-step method that requires both the client and server to exchange S
 confidentiality, integrity and availability, also known as the CIA triad, is a model designed to guide policies for information security within an organization
 
 Confidentiality -- ensuring that only authorized parties can read a message
+
 Integrity -- ensuring that any changes to data will be detected and rejected
+
 Availability --  ensuring that data should be available to authorized users whenever they require it. This means keeping systems, networks, and devices up and running.
 
