@@ -14,6 +14,10 @@
 * [Threat-Vulnerability-Risk](#Threat-Vulnerability-Risk)
 * [SOC](#SOC)
 * [L1-L2](#L1-L2)
+* [False Positive](#False Positive)
+* [False Negative](#False Negative)
+* [Risk Assessment](#Risk Assessment)
+* [Vulnerability Assessment](#Vulnerability Assessment)
 
 
 ## Cybersecurity
@@ -91,3 +95,17 @@ SOC stand for Security Operation Center and they are responsible for monitoring,
 L1 Monitors SIEM alerts, manages and configures security monitoring tools. Prioritizes and triages alerts or issues to determine whether real security incident is taking place.
 
 L2 Receives incidents and performs deep analysis; correlates with threat intelligence to identify the threat actor
+
+## False Positive
+When the device generated an alert for an intrusion that has actually not happened
+
+## False Negative
+if the device has not generated any alert and the intrusion has actually happened, this is the case of a false negative.
+
+## Risk Assessment 
+refers to detecting the information assets that are prone to cyber-attacks (including customer data, hardware, laptop,) and evaluates various risks that could affect those assets
+
+## Vulnerability Assessment 
+is to Identify security weaknesses in your IT infrastructure
+prioritize the vulnerabilities in computer systems, network, applications. and gives the organization with the required information to fix the flaws.
+
