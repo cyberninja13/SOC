@@ -34,7 +34,7 @@
 * [CSRF](#CSRF)
 * [IDOR](#IDOR)
 * [Signature-Behavioural](#Signature-Behavioural)
-* [What can you offer to customer](#What can you offer to customer)
+* [What can you offer to customer](#Offer-Customer)
 
 ## Cybersecurity
 Cybersecurity is the protection of internet-connected systems, including hardware, software and data from cyberattacks to prevent unauthorized access to data
@@ -217,6 +217,6 @@ behavior for suspicious behavior (ex. The chrome browser will try to access the 
 called dynamic analysis or sandboxing.
 
 
-## What can you offer to customer
+## Offer-Customer
 ensure and manage to keep your business safe from any cyber security attack by real-time monitoring
 and will protect your assets your date your software and hardware and prevent and mitigate any risk 
