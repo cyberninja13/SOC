@@ -33,7 +33,12 @@
 * [LFI](#LFI)
 * [CSRF](#CSRF)
 * [IDOR](#IDOR)
+* [Buffer overflow](#Buffer-overflow)
+* [Login-in-Windows](#Login-in-windows)
+* [Malicious Behavior](#Malicious-Behavior)
 * [Signature-Behavioural](#Signature-Behavioural)
+* [Incident response](#Incident-response)
+* [Ports](#Ports)
 * [What can you offer to customer](#Offer-Customer)
 
 ## Cybersecurity
@@ -63,6 +68,11 @@ So when people access these servers they are not going to be accessing them behi
 
 ## DNS 
 stand for domain name system and DNS resolve names to numbers, to be more specific it resolves domain names to IP address
+
+1. The pc will check for the website in the hosts file.
+2. If it’s not existed in hosts file. It will check the browser cache.
+3. If it's not existed in the browser cache. It will query the DNS server.
+4. If it's not existed in the DNS server. The DNS server will query the parent DNS server 
 
 
 ## WAF 
@@ -208,6 +218,36 @@ actions on a web application in which they’re currently authenticated. With a 
 IDOR is a vulnerability caused by the lack of an authorization mechanism or because it is not used properly. 
 It enables a person to access an object that belongs to another.
 
+
+##  Buffer-overflow
+A buffer overflow occurs when a program or process attempts to write more data to a fixed-length block of memory,
+or buffer, than the buffer is allocated to ...
+
+
+## Login-in-windows
+Application events (ex. any running application)
+• System events (ex. Load a driver)
+• Security events (ex. Failed and success login)
+• Sysmon and PowerShell logs we can enable them.
+
+Success login through event ID 4624 
+Failed login through event ID 4625
+
+ Sysmon logs
+
+• Event id 1→for process creation
+• Event id 3→for network connection
+• Event id 7→image loaded
+• Event id 11→file creation
+
+## Malicious-Behavior
+• RDP or SSH sessions during non-working hours.
+• DNS queries to IP addresses.
+• Process creation (Sysmon event id 1)
+• Scheduled tasks (event id 4698 in windows & crontabs in Linux)
+• Remote login with admin & root accounts. (they should login remotely by normal account 
+ then they switch to admin or root accounts if needed)
+
 ## Signature-Behavioural
 Signature based will compare the signature to a list of signatures and if there is a match it will 
 be blocked, also it's called static analysis. 
@@ -215,6 +255,37 @@ be blocked, also it's called static analysis.
 Behavioural based will run the code or program in isolated environment and monitor the 
 behavior for suspicious behavior (ex. The chrome browser will try to access the CMD). Also it's
 called dynamic analysis or sandboxing.
+
+
+## Incident-response
+Preparation: means prepare the infrastructure to handle incidents by placing all security 
+controls (ips, ids, firewall) and create process and procedures to handle incidents.
+
+• Detection & Analysis: analyze the incidents and make sure it is not a false positive. What are 
+the signs of incidents and sources of indicators(alert,logs,pepole), and incident documentation.
+
+• Containment &Recovery: contain the incidents from spreading or increasing damage. An 
+essential part of containment is decision-making (e.g., shut down a system, disconnect it from a 
+network, disable certain functions).
+
+• Post-Incident Activity: learning and improving phase. To learn about the incident and modify 
+our security controls (ips, ids, firewall) to prevent it in future.
+
+## Ports
+20	File Transfer Protocol (FTP) Data Transfer
+21	File Transfer Protocol (FTP) Command Control
+22	Secure Shell (SSH)
+23	Telnet - Remote login service, unencrypted text messages
+25	Simple Mail Transfer Protocol (SMTP) E-mail Routing
+53	Domain Name System (DNS) service
+80	Hypertext Transfer Protocol (HTTP) used in World Wide Web
+110	Post Office Protocol (POP3) used by e-mail clients to retrieve e-mail from a server
+119	Network News Transfer Protocol (NNTP)
+123	Network Time Protocol (NTP)
+143	Internet Message Access Protocol (IMAP) Management of Digital Mail
+161	Simple Network Management Protocol (SNMP)
+194	Internet Relay Chat (IRC)
+443	HTTP Secure (HTTPS) HTTP over TLS/SSL
 
 
 ## Offer-Customer
