@@ -9,9 +9,12 @@
 * [WAF](#WAF)
 * [IDS-IPS](#IDS-IPS)
 * [HIDS-NIDS](#HIDS-NIDS)
+* [Firewall-Deny-and-Drop](#Firewall-Deny-and-Drop)
 * [TCP and UDP](#TCP-UDP)
 * [TCP Three Way Handshake](#Handshake)
 * [CIA](#CIA)
+* [Encryption](#Encryption)
+* [Hashing](#Hashing)
 * [Threat-Vulnerability-Risk](#Threat-Vulnerability-Risk)
 * [SOC](#SOC)
 * [L1-L2](#L1-L2)
@@ -76,6 +79,14 @@ so one is aware of the problem, and the other one is stopping the problem
 HIDS: HIDS means Host Intrusion Detection System. HIDS is located on each host.
 NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the network.
 
+## Firewall-Deny-and-Drop
+
+DENY RULE: If the firewall is set to deny rule, it will block the connection and send a reset packet back to the requester.
+The requester will know that the firewall is deployed.
+
+DROP RULE: If the firewall is set to drop rule, it will block the connection request 
+without notifying the requester.
+
 
 ## TCP-UDP
 TCP is a connection-oriented protocol. - UDP is a datagram oriented protocol.
@@ -98,6 +109,14 @@ Integrity -- ensuring that any changes to data will be detected and rejected
 
 Availability --  ensuring that data should be available to authorized users whenever they require it. 
 This means keeping systems, networks, and devices up and running.
+
+## Encryption
+Encryption is the process of converting a normal readable message known as plaintext into unreadable message
+known as Cipher text. The cipher text obtained from the encryption can easily be transformed into plaintext using the encryption key. 
+
+## Hashing
+Hashing is the process of converting the information into a key using a hash function.
+The original information cannot be retrieved from the hash key by any means. 
 
 ## Threat-Vulnerability-Risk
 Threat: is Someone with the potential to cause harm by damaging or destroying the official data to a system or organization
