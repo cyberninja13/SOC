@@ -1,4 +1,5 @@
 ## Table of contents
+* [Cybersecurity](#Cybersecurity)
 * [Firewall](#Firewall)
 * [VPN](#VPN)
 * [Proxy](#Proxy)
@@ -9,6 +10,12 @@
 * [IDS-IPS](#IDS-IPS)
 * [HIDS-NIDS](#HIDS-NIDS)
 * [TCP Three Way Handshake](#Handshake)
+* [CIA](#CIA)
+
+
+## Cybersecurity
+Cybersecurity is the protection of internet-connected systems, including hardware, software and data from cyberattacks to prevent unauthorized access to data
+The goal of cybersecurity is to limit risk and protect IT assets from attackers with malicious intent.  maintain the confidentiality, integrity and availability (CIA) of data
 
 ## Firewall
 firewall is a device that allows or blocks traffic as per the defined set of rules. These are placed on the boundary of trusted and untrusted networks.
@@ -55,4 +62,11 @@ NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the netw
 ## Handshake
 The TCP three-way handshake is the method used in a TCP/IP network to create a connection between a local host, client and server. 
 It is a three-step method that requires both the client and server to exchange SYN and ACK packets before actual data communication begins.
+
+## CIA
+confidentiality, integrity and availability, also known as the CIA triad, is a model designed to guide policies for information security within an organization
+
+Confidentiality -- ensuring that only authorized parties can read a message
+Integrity -- ensuring that any changes to data will be detected and rejected
+Availability --  ensuring that data should be available to authorized users whenever they require it. This means keeping systems, networks, and devices up and running.
 
