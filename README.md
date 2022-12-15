@@ -9,6 +9,7 @@
 * [WAF](#WAF)
 * [IDS-IPS](#IDS-IPS)
 * [HIDS-NIDS](#HIDS-NIDS)
+* [TCP and UDP](#TCP-UDP)
 * [TCP Three Way Handshake](#Handshake)
 * [CIA](#CIA)
 * [Threat-Vulnerability-Risk](#Threat-Vulnerability-Risk)
@@ -16,6 +17,7 @@
 * [L1-L2](#L1-L2)
 * [False Positive](#False-Positive)
 * [False Negative](#False-Negative)
+* [SOC Runbook](#Runbook)
 * [Cyber Kill Chain](#Cyber-Kill-Chain)
 * [Risk Assessment](#Risk-Assessment)
 * [Vulnerability Assessment](#Vulnerability-Assessment)
@@ -75,6 +77,14 @@ HIDS: HIDS means Host Intrusion Detection System. HIDS is located on each host.
 NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the network.
 
 
+## TCP-UDP
+TCP is a connection-oriented protocol. - UDP is a datagram oriented protocol.
+TCP is reliable - UDP is not reliable
+TCP is slower - UDP IS faster than TCP
+
+Example: HTTP, SSH, HTTPS, SMTP -   Example: VoIP, online multiplayer games
+
+
 ## Handshake
 The TCP three-way handshake is the method used in a TCP/IP network to create a connection between a local host, client and server. 
 It is a three-step method that requires both the client and server to exchange SYN and ACK packets before actual data communication begins.
@@ -110,6 +120,10 @@ When the device generated an alert for an intrusion that has actually not happen
 
 ## False-Negative
 if the device has not generated any alert and the intrusion has actually happened, this is the case of a false negative.
+
+## Runbook
+A run book in SOC is a set of conditional procedures that are used to automatically perform actions,
+including data enrichment, threat containment, and notification as part of the incident response or security operations process.
 
 ## Cyber-Kill-Chain
 The cyber kill chain is a series of steps that trace stages of a cyberattack from the early reconnaissance stages to the exfiltration of data.
