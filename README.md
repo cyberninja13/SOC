@@ -8,7 +8,7 @@
 * [WAF](#WAF)
 * [IDS-IPS](#IDS-IPS)
 * [HIDS-NIDS](#HIDS-NIDS)
-* [TCP Three-Way Handshake](#TCP Three-Way Handshake)
+* [TCP Three Way Handshake](#TCP Three Way Handshake)
 
 ## Firewall
 firewall is a device that allows or blocks traffic as per the defined set of rules. These are placed on the boundary of trusted and untrusted networks.
@@ -52,7 +52,7 @@ HIDS: HIDS means Host Intrusion Detection System. HIDS is located on each host.
 NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the network.
 
 
-## TCP Three-Way Handshake
+## TCP Three Way Handshake
 The TCP three-way handshake is the method used in a TCP/IP network to create a connection between a local host, client and server. 
 It is a three-step method that requires both the client and server to exchange SYN and ACK packets before actual data communication begins.
 
