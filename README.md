@@ -8,7 +8,7 @@
 * [WAF](#WAF)
 * [IDS-IPS](#IDS-IPS)
 * [HIDS-NIDS](#HIDS-NIDS)
-* [TCP Three Way Handshake](#TCP Three Way Handshake)
+* [TCP Three Way Handshake](#Handshake)
 
 ## Firewall
 firewall is a device that allows or blocks traffic as per the defined set of rules. These are placed on the boundary of trusted and untrusted networks.
