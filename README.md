@@ -11,6 +11,7 @@
 * [HIDS-NIDS](#HIDS-NIDS)
 * [TCP Three Way Handshake](#Handshake)
 * [CIA](#CIA)
+* [Threat-Vulnerability-Risk](#Threat-Vulnerability-Risk)
 
 
 ## Cybersecurity
@@ -70,5 +71,13 @@ Confidentiality -- ensuring that only authorized parties can read a message
 
 Integrity -- ensuring that any changes to data will be detected and rejected
 
-Availability --  ensuring that data should be available to authorized users whenever they require it. This means keeping systems, networks, and devices up and running.
+Availability --  ensuring that data should be available to authorized users whenever they require it. 
+This means keeping systems, networks, and devices up and running.
+
+## Threat-Vulnerability-Risk
+Threat: is Someone with the potential to cause harm by damaging or destroying the official data to a system or organization
+
+Vulnerability: It refers to weaknesses in a system that makes threat outcomes more possible and even more dangerous
+
+Risk: It refers to a combination of threat probability and impact/loss. In simple terms, it is related to potential damage or loss when threat exploits the vulnerability
 
