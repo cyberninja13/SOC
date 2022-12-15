@@ -52,7 +52,7 @@ HIDS: HIDS means Host Intrusion Detection System. HIDS is located on each host.
 NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the network.
 
 
-## TCP Three Way Handshake
+## Handshake
 The TCP three-way handshake is the method used in a TCP/IP network to create a connection between a local host, client and server. 
 It is a three-step method that requires both the client and server to exchange SYN and ACK packets before actual data communication begins.
 
