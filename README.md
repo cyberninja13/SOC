@@ -12,6 +12,8 @@
 * [TCP Three Way Handshake](#Handshake)
 * [CIA](#CIA)
 * [Threat-Vulnerability-Risk](#Threat-Vulnerability-Risk)
+* [SOC](#SOC)
+* [L1-L2](#L1-L2)
 
 
 ## Cybersecurity
@@ -81,3 +83,11 @@ Vulnerability: It refers to weaknesses in a system that makes threat outcomes mo
 
 Risk: It refers to a combination of threat probability and impact/loss. In simple terms, it is related to potential damage or loss when threat exploits the vulnerability
 
+## SOC
+SOC stand for Security Operation Center and they are responsible for monitoring, detection, analysis, response, to any activities
+
+## L1-L2
+
+L1 Monitors SIEM alerts, manages and configures security monitoring tools. Prioritizes and triages alerts or issues to determine whether real security incident is taking place.
+
+L2 Receives incidents and performs deep analysis; correlates with threat intelligence to identify the threat actor
