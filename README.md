@@ -16,8 +16,17 @@
 * [L1-L2](#L1-L2)
 * [False Positive](#False-Positive)
 * [False Negative](#False-Negative)
+* [Cyber Kill Chain](#Cyber-Kill-Chain)
 * [Risk Assessment](#Risk-Assessment)
 * [Vulnerability Assessment](#Vulnerability-Assessment)
+* [ARP](#ARP)
+* [RDP](#RDP)
+* [SQL](#SQL)
+* [XSS](#XSS)
+* [RFI](#RFI)
+* [LFI](#LFI)
+* [CSRF](#CSRF)
+* [IDOR](#IDOR)
 
 
 ## Cybersecurity
@@ -102,6 +111,9 @@ When the device generated an alert for an intrusion that has actually not happen
 ## False-Negative
 if the device has not generated any alert and the intrusion has actually happened, this is the case of a false negative.
 
+## Cyber-Kill-Chain
+The cyber kill chain is a series of steps that trace stages of a cyberattack from the early reconnaissance stages to the exfiltration of data.
+
 ## Risk-Assessment 
 refers to detecting the information assets that are prone to cyber-attacks (including customer data, hardware, laptop,) and evaluates various risks that could affect those assets
 
@@ -109,3 +121,44 @@ refers to detecting the information assets that are prone to cyber-attacks (incl
 is to Identify security weaknesses in your IT infrastructure
 prioritize the vulnerabilities in computer systems, network, applications. and gives the organization with the required information to fix the flaws.
 
+
+## ARP
+The Address Resolution Protocol (ARP) is a communication protocol used for discovering
+the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address
+
+## RDP
+Remote desktop protocol (RDP) is a secure network communications protocol developed by Microsoft.
+It enables network administrators to remotely control users
+
+## SQL
+SQL injection is a famous vulnerability in the web application that allows Hackers to inject
+malicious code input into the SQL statement to compromise the SQL database. 
+
+SQL Prevent it?
+Using parameterized queries
+Validating the inputs
+Deploying a web application firewall
+
+
+## XSS
+Cross-site scripting attack, the attacker executes the malicious scripts on a web page 
+and can steal the user’s sensitive information. With XSS vulnerability, the attacker can inject Trojan, 
+read out user information, and perform specific actions such as the website’s defacement.
+
+XSS Prevent it?
+Encoding the output
+Applying filters at the point where input is received
+Deploying a web application firewall
+
+## RFI
+Remote File Inclusion (RFI), is the security vulnerability that occurs when a file on 
+different server is included without sanitizing the data obtained from a user.
+
+
+## LFI
+Local File Inclusion (LFI), is the security vulnerability that occurs when 
+local file is included without sanitizing the data obtained from a user.
+
+## CSRF
+Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted 
+actions on a web application in which they’re currently authenticated. With a little help of social engineering
